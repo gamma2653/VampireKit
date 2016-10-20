@@ -1,0 +1,21 @@
+name: Vampire Kit
+version: 1.0
+main: com.gamsion.chris.vampirekit.VampireKit
+author: gamma2626
+description: Adds a vampire kit.
+
+commands:
+    vampirekit:
+        usage: /<command> <argument>
+        description: Used to access all the commands for bh.
+
+permission:
+    vampirekit.spawn:
+        description: Permission to spawn Block Hider
+        default: op
+    vampirekit.useArmor:
+        description: Permission to use Vampire Armor.
+        default: op
+    vampirekit.useWeapon:
+        description: Permission to use Vampire Weapon.
+        default: op
